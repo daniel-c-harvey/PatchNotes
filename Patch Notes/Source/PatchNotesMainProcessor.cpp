@@ -1,11 +1,11 @@
 /*
   ==============================================================================
 
-    MainEditor.cpp
-    Created: 12 Feb 2024 5:56:51pm
+    PatchNotesMainProcessor.cpp
+    Created: 12 Feb 2024 8:37:17pm
     Author:  dharvey
 
   ==============================================================================
 */
 
-#include "MainEditor.h"
+#include "PatchNotesMainProcessor.h"

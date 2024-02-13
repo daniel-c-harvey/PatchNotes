@@ -2,6 +2,9 @@
 
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Filter Include="Patch Notes\PatchNotes">
+      <UniqueIdentifier>{C1570546-5BFE-EB56-9ADF-8BB1CA6EE9E2}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Patch Notes\Source">
       <UniqueIdentifier>{D9E2B365-ED89-7091-1BB4-B15FA2DBC8F0}</UniqueIdentifier>
     </Filter>
@@ -601,10 +604,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\PluginProcessor.cpp">
-      <Filter>Patch Notes\Source</Filter>
+    <ClCompile Include="..\..\Source\PatchNotesMainProcessor.cpp">
+      <Filter>Patch Notes\PatchNotes</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\MainEditor.cpp">
+    <ClCompile Include="..\..\Source\PatchNotesMainEditor.cpp">
+      <Filter>Patch Notes\PatchNotes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PluginProcessor.cpp">
       <Filter>Patch Notes\Source</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\PluginEditor.cpp">
@@ -3075,8 +3081,11 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\MainEditor.h">
-      <Filter>Patch Notes\Source</Filter>
+    <ClInclude Include="..\..\Source\PatchNotesMainProcessor.h">
+      <Filter>Patch Notes\PatchNotes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PatchNotesMainEditor.h">
+      <Filter>Patch Notes\PatchNotes</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\PluginProcessor.h">
       <Filter>Patch Notes\Source</Filter>

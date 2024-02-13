@@ -3,11 +3,19 @@
 <JUCERPROJECT id="HkJcIx" name="Patch Notes" projectType="audioplug" useAppConfig="0"
               addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
   <MAINGROUP id="T9DIRl" name="Patch Notes">
+    <GROUP id="{B3D8C79A-381F-5D1E-67CE-06DB54F93595}" name="PatchNotes">
+      <FILE id="ICsawo" name="PatchNotesMainProcessor.cpp" compile="1" resource="0"
+            file="Source/PatchNotesMainProcessor.cpp"/>
+      <FILE id="KSYzDr" name="PatchNotesMainProcessor.h" compile="0" resource="0"
+            file="Source/PatchNotesMainProcessor.h"/>
+      <FILE id="QS2EM4" name="PatchNotesMainEditor.cpp" compile="1" resource="0"
+            file="Source/PatchNotesMainEditor.cpp"/>
+      <FILE id="LeK3Vx" name="PatchNotesMainEditor.h" compile="0" resource="0"
+            file="Source/PatchNotesMainEditor.h"/>
+    </GROUP>
     <GROUP id="{C4DADA81-1BE0-E8CC-7AB5-9510A53E0CF7}" name="Source">
-      <FILE id="LeK3Vx" name="MainEditor.h" compile="0" resource="0" file="Source/MainEditor.h"/>
       <FILE id="jM7taU" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
-      <FILE id="QS2EM4" name="MainEditor.cpp" compile="1" resource="0" file="Source/MainEditor.cpp"/>
       <FILE id="JlA5Zo" name="PluginProcessor.h" compile="0" resource="0"
             file="Source/PluginProcessor.h"/>
       <FILE id="mQC38X" name="PluginEditor.cpp" compile="1" resource="0"
