@@ -11,8 +11,9 @@
 #pragma once
 
 #include <JuceHeader.h>
+#include "PluginProcessor.h"
 
-class PatchNotesMainProcessor : public juce::AudioProcessor
+class PatchNotesMainProcessor : public PatchNotesAudioProcessor
 {
 public:
     PatchNotesMainProcessor();

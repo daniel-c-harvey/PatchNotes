@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="HkJcIx" name="Patch Notes" projectType="audioplug" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" pluginManufacturer="Snailbird Lab"
+              aaxIdentifier="net.snailbird.PatchNotes" bundleIdentifier="net.snailbird.PatchNotes"
+              companyWebsite="www.snailbird.net" companyName="Snailbird Lab"
+              pluginFormats="buildStandalone,buildVST3" pluginCharacteristicsValue="pluginEditorRequiresKeys,pluginIsMidiEffectPlugin,pluginProducesMidiOut,pluginWantsMidiIn"
+              pluginVST3Category="External,Tools">
   <MAINGROUP id="T9DIRl" name="Patch Notes">
     <GROUP id="{B3D8C79A-381F-5D1E-67CE-06DB54F93595}" name="PatchNotes">
       <FILE id="ICsawo" name="PatchNotesMainProcessor.cpp" compile="1" resource="0"
